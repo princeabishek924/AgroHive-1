@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Glow effect with a thicker border or shadow for a glowing appearance -->
+    <path
+        android:fillColor="@color/glow_color"
+        android:strokeColor="@color/stroke_color"
+        android:strokeWidth="3"
+        android:pathData="M50,0 L93,25 L93,75 L50,100 L7,75 L7,25 Z" />
+</vector>

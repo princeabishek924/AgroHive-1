@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/background_color">
+
+    <!-- Logo or App Name (Centered at Top) -->
+    <TextView
+        android:id="@+id/LoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="AgroHive"
+        android:textColor="@color/progress_bar_color"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Email/Username Input -->
+    <EditText
+        android:id="@+id/identifierEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginText"
+        android:layout_marginTop="60dp"
+        android:autofillHints="emailAddress|username"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="12dp"
+        android:hint="@string/email_or_username"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_gray"
+        android:textSize="16sp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/identifierEditText"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/lock"
+        android:drawableEnd="@drawable/eye"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_gray"
+        android:textSize="16sp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Forgot Password Button (Aligned Below Login Button) -->
+
+    <!-- Progress Bar -->
+
+    <TextView
+        android:id="@+id/forgotPasswordButton"
+        android:layout_width="189dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/loginButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-97dp"
+        android:layout_marginEnd="-38dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/progress_bar_color"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgotPasswordButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <!-- Forgot Password Section (Initially Hidden) -->
+    <LinearLayout
+        android:id="@+id/forgotPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your email to reset password"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/resetEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_gray"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/resetSuccessText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/backToLoginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Back to Login"
+            android:textColor="@color/progress_bar_color"
+            android:textSize="14sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

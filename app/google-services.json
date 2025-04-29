@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "111455450263",
+    "project_id": "agrohive-da035",
+    "storage_bucket": "agrohive-da035.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111455450263:android:14094287c287292c4c65d2",
+        "android_client_info": {
+          "package_name": "com.example.agrohive_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhW3sAPYTdUgVr1mbhHJFcC4Z4irypL6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

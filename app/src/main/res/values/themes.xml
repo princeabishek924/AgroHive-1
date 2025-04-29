@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme -->
+    <style name="Theme.AgroHive_1" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Bold Text Style -->
+    <style name="BoldText">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- No Default Splash Theme (App-Wide) -->
+    <style name="Theme.AgroHive_1.NoSplash" parent="Theme.AgroHive_1">
+        <item name="android:windowSplashScreenBackground" tools:targetApi="31">@android:color/transparent</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="31">0</item>
+    </style>
+
+    <!-- Custom Splash Theme (SplashActivity) -->
+    <style name="Theme.AgroHive_1.Splash" parent="Theme.AgroHive_1.NoSplash">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Integrated Theme for Settings -->
+    <style name="AgroTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="AgroTheme.Light" parent="AgroTheme">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Light Theme Variants for Font Size -->
+    <style name="AgroTheme.Light.Small" parent="AgroTheme.Light">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="AgroTheme.Light.Medium" parent="AgroTheme.Light">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="AgroTheme.Light.Large" parent="AgroTheme.Light">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="AgroTheme.Dark" parent="AgroTheme">
+        <item name="android:windowBackground">@color/dark_gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Dark Theme Variants for Font Size -->
+    <style name="AgroTheme.Dark.Small" parent="AgroTheme.Dark">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="AgroTheme.Dark.Medium" parent="AgroTheme.Dark">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="AgroTheme.Dark.Large" parent="AgroTheme.Dark">
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:backgroundTint">#AEE0AE</item>
+    </style>
+    <style name="NavbarStyle">
+        <item name="android:background">@color/progress_bar_color</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="LogoStyle">
+        <item name="android:radius">20dp</item>
+    </style>
+</resources>

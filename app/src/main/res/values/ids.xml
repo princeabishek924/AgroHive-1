@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="saveUsernameButton" type="id" />
+    <item name="usernameAvailabilityText" type="id" />
+    <item name="usernameEditText" type="id" />
+    <item name="roleChangeCard" type="id" />
+    <item name="settingsCard" type="id" />
+    <item name="headerText" type="id" />
+    <item name="productNameEditText" type="id" />
+    <item name="priceUnitLayout" type="id" />
+    <item name="priceEditText" type="id" />
+    <item name="unitSpinner" type="id" />
+    <item name="quantityEditText" type="id" />
+    <item name="pincodeLocationAutoComplete" type="id" />
+    <item name="listButton" type="id" />
+    <item name="unreadBadge" type="id" />
+    <item name="chatName" type="id" />
+</resources>

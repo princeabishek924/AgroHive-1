@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/rectangle_border">
+
+    <ImageView
+        android:id="@+id/listingImageView"
+        android:layout_width="153dp"
+        android:layout_height="155dp"
+        android:contentDescription="@string/listing_image"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="14dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_0_kg"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/available_0_units"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listed_on_dd_mm_yyyy"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/orderStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0_new_order_s"
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/viewDetailsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_details"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/progress_bar_color"
+            android:drawableStart="@drawable/eye"
+            android:drawablePadding="4dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="0dp"
+            android:padding="4dp"
+            android:background="?android:attr/selectableItemBackground" />
+    </LinearLayout>
+</LinearLayout>

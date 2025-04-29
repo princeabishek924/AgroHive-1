@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">AgroHive</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="phone_hint">Phone</string>
+    <string name="pincode_hint">Pincode</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="profile_image_desc">User profile picture</string>
+    <string name="progress_percentage">%d%%</string>
+    <string name="signup_success_text">Registration successfully completed !</string>
+    <string name="footer_text">© 2025 AgroHive. All rights reserved.</string>
+    <string name="loading">Loading...</string>
+    <string name="user">User</string>
+    <string name="user_not_authenticated">User not authenticated</string>
+    <string name="failed_to_load_user_data">Failed to load user data</string>
+    <string name="network_error">Network error: %1$s</string>
+    <string name="failed_to_load_listings">Failed to load listings</string>
+    <string name="invalid_pincode">Invalid pincode</string>
+    <string name="failed_to_fetch_pincode_data">Failed to fetch pincode data</string>
+    <string name="network_error_pincode">Network error fetching pincode</string>
+    <string name="profile_image_empty">Profile image URL is empty</string>
+    <string name="failed_to_show_profile_overlay">Failed to show profile overlay</string>
+    <string name="location_label">Location: %1$s (%2$s)</string>
+    <string name="user_auth_required">User authentication required to fetch listings.</string>
+    <string name="listings_found">%1$d listings found</string>
+    <string name="no_listings_found">No listings were found for pincode %1$s within %2$s</string>
+    <string name="filter_label">Filter: %1$s (₹%2$.2f - ₹%3$.2f)</string>
+    <string name="role_change_warnings">
+        <![CDATA[
+        Changing your role will have the following impacts on your account and data:\n
+        1. All existing data associated with your current role (%s) (e.g., listings, chats, notifications) will be permanently deleted.\n
+        2. You will lose access to role-specific features (e.g., dashboard for Farmers, listings for Customers/Marketers) tied to your current role.\n
+        3. After the role change, you will be logged out and required to log in again to access the new role’s features.\n
+        4. Any pending transactions or interactions linked to your current role will be canceled and cannot be recovered.\n
+        5. Your account details (e.g., name, email) will remain, but role-specific preferences will reset.
+        ]]>
+    </string>
+    <string name="change_role">Change Role</string>
+    <string name="logout">Logout</string>
+    <string name="i_understand_about_the_changes_and_deletion_of_data">I understand about the changes and deletion of data</string>
+    <string name="change_role1">Change Role</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="search_products">Search products</string>
+    <string name="user1">User</string>
+    <string name="loc">Location</string>
+    <string name="filter">Filter: 15km</string>
+    <string name="fil">Filter</string>
+    <string name="pincode">Enter pincode</string>
+    <string name="done">Done</string>
+    <string name="listing">0 listings found</string>
+    <string name="bot">Open Chatbot</string>
+    <string name="role_change">rolechange</string>
+    <string name="settings">settings</string>
+    <string name="edit_profile">edit_profile\n</string>
+    <string name="user_name">username</string>
+    <string name="photo_icon">photoicon</string>
+    <string name="profile_image">image</string>
+    <string name="name">Name</string>
+    <string name="send_message">Send message</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="no_messages_yet">No messages yet</string>
+    <string name="product_name">Product Name</string>
+    <string name="listing_image">Listing Image</string>
+    <string name="price_0_kg">Price: ₹0 / kg</string>
+    <string name="available_0_units">Available: 0 units</string>
+    <string name="listed_on_dd_mm_yyyy">Listed on: DD-MM-YYYY</string>
+    <string name="_0_new_order_s">0 new order(s)</string>
+    <string name="view_details">View Details</string>
+    <string name="user_profile_picture">User profile picture</string>
+</resources>
